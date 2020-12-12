@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.button{
+    text-transform: uppercase;
+    cursor: pointer;
+    border: solid ;
+    padding: 4px 4px;
+    border-radius: 10px;
+}
+#lists{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: burlywood;
+}
+.change_color{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding-top: 35vh;
+}
+.button:hover{
+    transform: scale(1.2);
+}
